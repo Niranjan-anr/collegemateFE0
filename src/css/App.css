@@ -1,0 +1,53 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* off-white */
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5a5f; /* red */
+    color: #fff; /* white */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e75156; /* darker red on hover */
+  }
+  
+  .link {
+    color: #ff5a5f; /* red */
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #ff5a5f; /* red */
+    font-size: 36px; /* Very big */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #ff5a5f; /* red */
+    font-size: 24px; /* A little smaller */
+  }
+  
+  p {
+    color: #333; /* dark gray */
+    font-size: 18px; /* Smaller */
+  }
+  

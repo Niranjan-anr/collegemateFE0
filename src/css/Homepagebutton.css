@@ -1,0 +1,17 @@
+/* Importing base styles */
+@import url('App.css');
+
+/* Additional styles for HomePageButton */
+.home-page-button {
+  background-color: #ff5a5f; /* red */
+  color: #fff; /* white */
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-page-button:hover {
+  background-color: #e75156; /* darker red on hover */
+}

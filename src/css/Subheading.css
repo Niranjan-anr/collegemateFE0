@@ -1,0 +1,27 @@
+.subheading-section {
+    background-color: #f8f8f8; /* off-white */
+    color: #333; /* dark gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to position elements */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out the elements */
+  }
+  
+  .subheading-section h2 {
+    color: #ff5a5f; /* red */
+    font-size: 5rem; /* Larger font size */
+  }
+  
+  .subheading-section p {
+    margin-top: 0.1rem; /* Adjust top margin */
+    font-size: 4rem; /* Smaller font size */
+  }
+  
+  .subheading-section img {
+    max-width: 50%; /* Image occupies 50% of container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
