@@ -26,7 +26,7 @@ const MultiStepForm: React.FC = () => {
         },
         body: JSON.stringify(formData),
       });
-      if (response.ok) {
+      if (response.ok) {//good
         console.log('Form data submitted successfully');
         setSubmitted(true);
       } else {
